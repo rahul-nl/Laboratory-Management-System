@@ -1,0 +1,73 @@
+body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  padding: 100PX;
+}
+.column {
+    float: left;
+    width: 33.33%;
+   /* background-color:;*/
+    border-radius: 5px;
+  
+    
+      }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: nones;
+    clear: both;
+  }
+  .column{
+    column-gap: 10px;
+  }
+  .col-4{
+    padding: 1px;
+  }
+  a{
+    background-color:#192A3E;
+    background-size: 30px, 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 50px;
+    font-weight: 600;
+  }
+
+  
+ h2{
+   text-align: center;
+   border-color:  #192A3E;
+   border-style: solid;
+   color: #192A3E;
+   padding: 5px 10px;
+
+ }
+  tr td{
+    text-align: center;
+    font-weight: 600;
+  }
+
+  button{
+    background-color:#192A3E;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-style:none;
+
+  }
+  tr td p{
+    font-size: x-large;
+    text-align: center;
+  }
+
+  /*filter code starts*/
+  button[data-filter="odd"]:focus ~ div:not([class*="odd"]) {
+    display:none;
+  }
+
+  button[data-filter="even"]:focus ~ div:not([class*="even"]) {
+    display:none;
+  }

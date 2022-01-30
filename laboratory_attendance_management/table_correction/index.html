@@ -1,0 +1,395 @@
+<!--Built by Chaithra K S -->
+<!--This is a list of classes and the filtering of classes based on the selection-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>
+        
+    </title>
+  </head>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 350px; /* Should be removed. Only for demonstration */
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+<div class="filteredList">
+
+  <button class="filter-option" data-filter="*" tabindex="-1">ALL SEMESTER</button>
+    <button class="filter-option" data-filter="odd" tabindex="-1"> ODD SEMESTER</button>
+    <button class="filter-option" data-filter="even" tabindex="-1"> EVEN SEMESTER</button>
+
+<div class="sem odd">
+<div class="row">
+  <div class="column">
+    <h2>SECOND YEAR</h2>
+    <table width=100% height=40%   bordercolor=black>
+      <tr>
+        <td> 
+         <P>3A</P>
+        </td>
+        <td>
+          <table  width=100% height=100% >
+            <tr>
+              <td>
+                   <a href="http://localhost/iot/index.php"> 3A1</a>     
+              </td>
+            </tr>
+            <tr>
+              <td>
+                  <a href="#"> 3A2</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                  <a href="#"> 3A3</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+    </tr>
+    </table>
+    <div class="col-4"><!--extra div--></div>
+    <table  width=100% height=40%  bordercolor=black>
+      <tr>
+        <td>
+          <P>3B</P>
+        </td>
+        <td>
+          <table   width=100% height=100% >
+            <tr>
+              <td>
+                <a style="align-content: center;" href="#"> 3B1</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 3B2</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 3B3</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+    </tr>    
+    </table>
+  </div>
+  
+  <div class="column">
+    <h2>THIRD YEAR</h2>
+    <table width=100% height=40%  bordercolor=black>
+      <tr>
+        <td>
+        <P>5A</P>
+        </td>
+        <td>
+          <table width=100% height=100%  >
+            <tr>
+              <td>
+                <a href="#"> 5A1</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 5A2</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 5A3</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+    </tr>
+    </table>
+    <div class="col-4"><!--extra div--></div>
+    <table width=100% height=40%  bordercolor=black>
+      <tr>
+        <td>
+        <P>5B</P>
+        </td>
+        <td>
+          <table  width=100% height=100% >
+            <tr>
+              <td>
+                <a href="#"> 5B1</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 5B2</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 5B3</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+    </tr>    
+    </table>
+  </div>
+  <div class="col-4"><!--extra div--></div>
+  <div class="column">
+    <h2>FOURTH YEAR</h2>
+    <table  width=100% height=40%  bordercolor=black>
+      <tr>
+        <td>
+         <P>7A</P>
+        </td>
+        <td>
+          <table width=100% height=100% >
+            <tr>
+              <td>
+                <a href="#"> 7A1</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 7A2</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 7A3</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+    </tr>
+    </table>
+    <div class="col-4"><!--extra div--></div>
+    <table  width=100% height=40% bordercolor=black>
+      <tr>
+        <td>
+          <p>7B</p>
+        </td>
+        <td>
+          <table  width=100% height=100% >
+            <tr>
+              <td>
+                <a href="#">7B1</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 7B2</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 7B3 </a>
+              </td>
+            </tr>
+          </table>
+        </td>
+    </tr>    
+    </table>
+  </div>
+</div>
+</div>
+<!--The even code starts here-->
+<div class="sem even">
+<div class="row">
+  <div class="column">
+    <h2>SECOND YEAR</h2>
+    <table width=100% height=40%   bordercolor=black>
+      <tr>
+        <td> 
+          <P>4A</P>
+        </td>
+        <td>
+          <table  width=100% height=100% >
+            <tr>
+              <td>
+                   <a href="#"> 4A1</a>     
+              </td>
+            </tr>
+            <tr>
+              <td>
+                  <a href="#"> 4A2</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                  <a href="#"> 4A3</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+    </tr>
+    </table>
+    <div class="col-4"><!--extra div--></div>
+    <table  width=100% height=40%  bordercolor=black>
+      <tr>
+        <td>
+          <P>4B</P>
+        </td>
+        <td>
+          <table  width=100% height=100%>
+            <tr>
+              <td>
+                <a style="align-content: center;" href="#"> 4B1</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 4B2</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 4B3</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+    </tr>    
+    </table>
+  </div>  
+  <div class="column">
+    <h2>THIRD YEAR</h2>
+    <table  width=100% height=40%  bordercolor=black>
+      <tr>
+        <td>
+        <P>6A</P>
+        </td>
+        <td>
+          <table width=100% height=100% >
+            <tr>
+              <td>
+                <a href="#"> 6A1</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 6A2</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 6A3</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+    </tr>
+    </table>
+    <div class="col-4"><!--extra div--></div>
+    <table  width=100% height=40%  bordercolor=black>
+      <tr>
+        <td>
+        <P>6B</P>
+        </td>
+        <td>
+          <table  width=100% height=100% >
+            <tr>
+              <td>
+                <a href="#"> 6B1</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 6B2</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 6B3</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+    </tr>    
+    </table>
+  </div>
+  <div class="column">
+    <h2>FOURTH YEAR</h2>
+    <table   width=100% height=40%  bordercolor=black>
+      <tr>
+        <td>
+        <P>8A</P>
+        </td>
+        <td>
+          <table width=100% height=100% >
+            <tr>
+              <td>
+                <a href="#"> 8A1</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 8A2</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 8A3</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+    </tr>
+    </table>
+    <div class="col-4"><!--extra div--></div>
+    <table  width=100% height=40% bordercolor=black>
+      <tr>
+        <td>
+          <P>8B</P>
+        </td>
+        <td>
+          <table width=100% height=100% >
+            <tr>
+              <td>
+                <a href="#">8B1</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 8B2</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"> 8B3 </a>
+              </td>
+            </tr>
+          </table>
+        </td>
+    </tr>    
+    </table>
+  </div>
+</div>
+</div>
+</div> <!--The Filter code ends here-->
+</body>
+</html>

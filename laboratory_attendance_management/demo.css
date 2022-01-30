@@ -1,0 +1,93 @@
+/* Some basic page styles */
+body {
+	background:rgba(36, 25, 25, 0.7) url('download.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: 100% 100%;
+	background-blend-mode: darken;
+}
+
+.container {
+	position: absolute;
+	right: 370px;
+	margin: 150px;
+	max-width: 300px;
+	padding: 10px;
+  }
+
+h1 { 
+	display: block;
+	font-size: 3em;
+	margin-top: 0.80em;
+	margin-bottom: 0.67em;
+	margin-left: 1.75em;
+	margin-right: 6em;
+	font-weight: bold;
+  }
+/* Label styles: style as needed */
+label {
+	display:block;
+	margin-top:1em;
+	margin-left: 1em;
+	font-size: 1.25em;
+	color:rgb(198, 196, 201);
+}
+.select-css	{
+	margin: .5em 0;
+}
+
+.dark-wrapper {
+	margin-top: 2em;
+	padding: 1em 1em 1em;
+	background: #444;
+}
+
+.dark-wrapper label {
+	margin-top: 0;
+	color: #ccc;
+}
+
+
+
+/* Set a style for the submit button */
+.btn {
+	background-color: #2b88c7;
+	border-radius: 17px;  
+	padding-left: 17px; 
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.7;
+  }
+  
+.btn:hover {
+	opacity: 1;
+}
+
+
+.button {
+	margin-top: 120px;
+    margin-left:600px;
+    background-color: #2b88c7;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 12.5pt;
+    text-align: center;
+    padding: 10px;  
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    height: 20px;
+    opacity: 0.7;
+    text-decoration: none;
+    display: block;
+}
+.button:hover{
+    opacity: 1;
+}
+
+
+ 
