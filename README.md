@@ -3,9 +3,9 @@ An RFID based kit management system for faculties to track the student's attenda
 <br><br>
 To know more about the project: <ul>
   <li><a href="https://youtu.be/3Qivmbk53hg">YouTube </a></li>
-  <li><a href="https://drive.google.com/file/d/11pUrGhiDelIp2yaZlL-e9tyVog8geIhR/view">Report </a></li>
-<br><br>
-#Team Modules:
+  <li><a href="https://drive.google.com/file/d/11pUrGhiDelIp2yaZlL-e9tyVog8geIhR/view">Report </a></li></ul>
+
+<h2>Team Modules :</h2>
   <ul>
     <li>Rahul N L</li>
     <li>Vikas G K</li>
